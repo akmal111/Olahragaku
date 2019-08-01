@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="@drawable/bekgron"
+    android:gravity="center"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/list"
+        android:background="@drawable/button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Sport Hall"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/about"
+        android:background="@drawable/button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="About ME"
+
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+</LinearLayout>
